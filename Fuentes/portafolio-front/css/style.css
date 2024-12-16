@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Fuente de letra para todo el documento */
+    font-size: 18px; /* Tamaño de la fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f4f4f4; /* Color de fondo del cuerpo */
+    color: #3b5998; /* Color del texto */
+}
+
+header {
+    background: url('img/feliz.jpg') no-repeat center center/cover; /* Imagen de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    padding: 2em 0; /* Relleno del encabezado para hacerlo más ancho */
+}
+
+header h1 {
+    text-align: center; /* Centra el texto del encabezado */
+    margin: 0; /* Elimina el margen del título */
+}
+
+nav ul {
+    display: flex; /* Utiliza flexbox para el diseño del menú de navegación */
+    justify-content: center; /* Centra horizontalmente los elementos dentro de ul */
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el relleno de ul */
+}
+
+nav ul li {
+    margin: 0 1em; /* Margen entre los elementos del menú */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto de los enlaces del menú */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+section {
+    padding: 2em; /* Relleno de cada sección */
+    margin: -1px 0; /* Elimina los espacios entre secciones */
+}
+
+section#quien-soy {
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Degradado azul de fondo */
+    color: white; /* Color del texto */
+}
+
+section#acerca-de-mi {
+    background: linear-gradient(to bottom right, #2193b0, #6dd5ed); /* Degradado azul de fondo */
+    color: white; /* Color del texto */
+}
+
+section#mis-servicios {
+    background: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b); /* Degradado azul de fondo */
+    color: white; /* Color del texto */
+}
+
+section#contactame {
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298); /* Degradado azul de fondo */
+    color: white; /* Color del texto */
+}
+
+section#contactame form {
+    display: flex; /* Utiliza flexbox para el diseño del formulario */
+    flex-direction: column; /* Coloca los elementos del formulario en una columna */
+}
+
+section#contactame label {
+    margin: 0.5em 0 0.2em; /* Margen superior e inferior para los labels */
+}
+
+section#contactame input, section#contactame textarea {
+    padding: 0.5em; /* Relleno interno */
+    margin-bottom: 1em; /* Margen inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+section#contactame input[type="submit"] {
+    background: #3b5998; /* Fondo azul del botón de envío */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 0.7em; /* Relleno interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+footer {
+    background: #3b5998; /* Fondo azul del pie de página */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 1em 0; /* Relleno del pie de página */
+    margin-top: 0; /* Margen superior del pie de página */
+}
+
+footer p {
+    margin: 0; /* Elimina el margen del párrafo */
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administrar Servicios</title>
+    <link rel="stylesheet" href="../../css/admin.css" />
+  </head>
+  <body>
+    <h1>Administrar Servicios</h1>
+    <form id="form-servicio">
+      <input
+        type="text"
+        id="titulo"
+        placeholder="Título del Servicio"
+        required
+      />
+      <textarea
+        id="descripcion"
+        placeholder="Descripción del Servicio"
+        required
+      ></textarea>
+      <button type="submit">Agregar Servicio</button>
+    </form>
+    <h2>Servicios Existentes</h2>
+    <ul id="lista-servicios"></ul>
+    <script type="module" src="../../js/admin.js"></script>
+  </body>
+</html>

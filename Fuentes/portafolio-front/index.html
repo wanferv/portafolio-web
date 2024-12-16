@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Define el tipo de documento y el idioma del contenido -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la visualización en diferentes dispositivos -->
+    <title>Portafolio Ejemplo </title> <!-- Título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Vincula el documento HTML con el archivo CSS externo -->
+</head>
+<body>
+    <header> <!-- Sección de cabecera de la página -->
+        <h1>MI Portafolio</h1> <!-- Título principal de la cabecera -->
+        <nav> <!-- Elemento de navegación para los enlaces del menú -->
+            <ul> <!-- Lista desordenada para los elementos del menú -->
+                <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+                <li><a href="html/public/quien-soy.html">Quién soy</a></li> <!-- Enlace a la sección Quién soy -->
+                <li><a href="html/public/acerca-de-mi.html">Acerca de mí</a></li> <!-- Enlace a la sección Acerca de mí -->
+                <li><a href="html/public/mis-servicios.html">Mis servicios</a></li> <!-- Enlace a la sección Mis servicios -->
+                <li><a href="html/public/contactame.html">Contáctame</a></li> <!-- Enlace a la sección Contáctame -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quien-soy"> <!-- Sección Quién Soy -->
+        <h2>Quién Soy</h2> <!-- Encabezado de la sección Quién Soy -->
+        <p>Hola, soy Mi nombre, un Desarrollador Fullstack apasionado.</p> <!-- Párrafo de introducción de la sección Quién Soy -->
+    </section>
+
+    <section id="acerca-de-mi"> <!-- Sección Acerca de Mí -->
+        <h2>Acerca de Mí</h2> <!-- Encabezado de la sección Acerca de Mí -->
+        <p>Soy una persona alegre y apasionada por todos los temas de tecnología, me motiva aprender y saber que puedo crear cosas con mis manos.</p> <!-- Párrafo de la sección Acerca de Mí -->
+    </section>
+
+    <section id="mis-servicios"> <!-- Sección Mis Servicios -->
+        <h2>Mis Servicios</h2> <!-- Encabezado de la sección Mis Servicios -->
+        <ul> <!-- Lista desordenada de servicios -->
+            <li>Servicio 1: Desarrollador</li> <!-- Primer servicio -->
+            <li>Servicio 2: Gym</li> <!-- Segundo servicio -->
+            <li>Servicio 3: Correr</li> <!-- Tercer servicio -->
+        </ul>
+    </section>
+
+    <section id="contactame"> <!-- Sección Contáctame -->
+        <h2>Contáctame</h2> <!-- Encabezado de la sección Contáctame -->
+        <form action="" method="POST"> <!-- Formulario para enviar mensajes -->
+            <label for="name">Nombre:</label> <!-- Etiqueta para el campo del nombre -->
+            <input type="text" id="name" name="name" required> <!-- Campo de entrada para el nombre -->
+            
+            <label for="email">Correo Electrónico:</label> <!-- Etiqueta para el campo del correo electrónico -->
+            <input type="email" id="email" name="email" required> <!-- Campo de entrada para el correo electrónico -->
+            
+            <label for="message">Mensaje:</label> <!-- Etiqueta para el campo del mensaje -->
+            <textarea id="message" name="message" rows="4" required></textarea> <!-- Área de texto para el mensaje -->
+            
+            <input type="submit" value="Enviar"> <!-- Botón para enviar el formulario -->
+        </form>
+    </section>
+
+    <footer> <!-- Pie de página -->
+        <p>&copy; 2024 Alexander. Todos los derechos reservados.</p> <!-- Texto del pie de página con derechos de autor -->
+    </footer>
+</body>
+</html>
